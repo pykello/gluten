@@ -10,7 +10,7 @@ BUILD_PROTOBUF=ON
 BUILD_TYPE=release
 VELOX_HOME=
 #for ep cache
-VELOX_REPO=https://github.com/oap-project/velox.git
+VELOX_REPO=https://github.com/declued/velox
 VELOX_BRANCH=main
 TARGET_BUILD_COMMIT=""
 

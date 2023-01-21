@@ -2,7 +2,7 @@
 
 set -exu
 
-VELOX_REPO=https://github.com/oap-project/velox.git
+VELOX_REPO=https://github.com/declued/velox
 VELOX_BRANCH=main
 
 for arg in "$@"
