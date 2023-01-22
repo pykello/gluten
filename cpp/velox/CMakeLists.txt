@@ -143,6 +143,12 @@ macro(ADD_VELOX_DEPENDENCIES)
   add_velox_dependency(external::md5 "${VELOX_COMPONENTS_PATH}/external/md5/libmd5.a")
   add_velox_dependency(external::date "${VELOX_COMPONENTS_PATH}/external/date/libvelox_external_date.a")
 
+  add_velox_dependency(codegen::main "${VELOX_COMPONENTS_PATH}/experimental/codegen/libvelox_experimental_codegen.a")
+  add_velox_dependency(codegen::proto "${VELOX_COMPONENTS_PATH}/experimental/codegen/proto/libvelox_codegen_proto.a")
+  add_velox_dependency(codegen::ast "${VELOX_COMPONENTS_PATH}/experimental/codegen/ast/libvelox_codegen_ast.a")
+  add_velox_dependency(codegen::resources "${VELOX_COMPONENTS_PATH}/experimental/codegen/utils/resources/libvelox_codegen_utils_resource_path.a")
+  add_velox_dependency(codegen::udf_manager "${VELOX_COMPONENTS_PATH}/experimental/codegen/udf_manager/libvelox_codegen_udf_manager.a")
+
 endmacro()
 
 macro(find_libhdfs3)
